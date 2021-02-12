@@ -1,0 +1,9 @@
+mysql:
+  build: ./mysql/
+  environment:
+    MYSQL_DATABASE: monitor
+    MYSQL_USER: admin
+    MYSQL_PASSWORD: 4me4u2
+    MYSQL_ROOT_PASSWORD: superroot
+  ports:
+    - 3307:3306
